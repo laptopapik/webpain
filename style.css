@@ -12,7 +12,7 @@ a{
 
 nav{
 	height: 100px;
-	background-color: #252525;
+	background-color: #1c1c1c;
 	position: relative;
 }
 
@@ -22,6 +22,7 @@ nav ul li{
 	display: inline;
 }
 .container{
+	max-width: 1140px;
 	margin: 0 125px;
 	position: relative;
 	top: 40px;
@@ -58,10 +59,10 @@ nav ul li a{
 
 .content{
 	height: 400px;
-	background-color: #292929;
+	background-color: #1f1f1f;
 	position: relative;
 	text-align: center;
-   	color: #D8D8D8;
+   	color: #d0d0d0;
 }
 
 .container h1{
@@ -71,7 +72,7 @@ nav ul li a{
 }
 .container p{
 	font-size: 42px;
-    font-weight: 100;
+    font-weight: 300;
     margin-top: 15px;
 }
 .bold{
@@ -81,7 +82,7 @@ nav ul li a{
 }
 .button{
 	display: inline-block;
-	background-color: #ea645f;
+	background-color: #f74d4c;
     width: 150px;
     text-align: center;
     padding: 15px 25px;
@@ -90,6 +91,7 @@ nav ul li a{
     margin-top: 50px;
     text-transform: uppercase;
     font-weight: 800;
-     font-size: 13px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
 
 }
