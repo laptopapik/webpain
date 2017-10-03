@@ -11,30 +11,33 @@ a{
 }
 
 nav{
-	background-color: #2A2A2A;
+	height: 100px;
+	background-color: #252525;
 	position: relative;
-	padding: 10px 0;
 }
 
 nav img,
 nav ul,
 nav ul li{
 	display: inline;
-	margin: 10px;
 }
-.logo{
-	width: 12%;
+.container{
+	margin: 0 125px;
+	position: relative;
+	top: 40px;
 }
 
-.wrapnav{
-	margin: 0 210px;
+.logo{
+	width: 140px;
 }
 
 nav ul{
 	float: right;
-	position: relative;
-    top: 5px;
-   	padding: 0;
+}
+
+nav ul li{
+   	margin-left: 10px;
+   	padding: 0px 20px;
 }
 
 nav ul li a{
@@ -42,9 +45,51 @@ nav ul li a{
 	font-weight: bold;
    	color: #D8D8D8;
    	text-transform: uppercase;
-   	margin-left: 10px;
 }
 
 .active {
 	color: #FF585E;
+}
+
+/* ============content */
+.container-content{
+	padding-top: 5px;
+}
+
+.content{
+	height: 400px;
+	background-color: #292929;
+	position: relative;
+	text-align: center;
+   	color: #D8D8D8;
+}
+
+.container h1{
+	display: inline;
+	font-weight: 200;
+    font-size: 60px;
+}
+.container p{
+	font-size: 42px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.bold{
+	font-size: 60px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.button{
+	display: inline-block;
+	background-color: #ea645f;
+    width: 150px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+     font-size: 13px;
+
 }
