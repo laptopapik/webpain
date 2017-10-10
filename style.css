@@ -152,7 +152,7 @@ nav ul li a{
 	text-align: center;
 	color: #616161;
 	padding: 10px;
-	height: 950px;
+	height: 955px;
 }
 
 .featured h2{
@@ -166,8 +166,8 @@ nav ul li a{
 .featured p{
 	font-size: 20px;
 	font-weight: 100;
-	text-transform: capitalize;
 	margin: 10px;
+    letter-spacing: 1px;
 }
 
 .featured-button{
@@ -199,8 +199,86 @@ nav ul li a{
     margin-top: 20px;
 }
 
+.featured-works img{
+	width: 270px;
+}
+
+
 .works-image{
 	float: left;
 	display: inline-block;
 	padding: 5px;
 }
+
+@media () {
+	
+}
+
+
+/* ====== FOOTER ====== */
+
+footer {
+	background-color: #252525;
+	height: 300px;
+}
+
+.container-footer {
+	text-align: center;
+	margin-top: 35px;
+	color: #bebebe;
+	position: relative;
+    top: 26%;
+}
+
+.container-footer h2 {
+	font-size: 30px;
+    font-weight: 900;
+}
+
+.container-footer p {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.help p {
+	display: inline;
+	margin: 0 20px;
+	font-size: 15px;
+}
+
+.help p img {
+	width: 10px;
+	padding-right: 5px;
+}
+
+.callme{
+	margin-top: 10px;
+}
+
+.callme li{
+	display: inline;
+	margin: 0 2px;
+}
+
+.callme li img {
+	width: 30px;
+}
+
+/* === 	copy right ====== */
+
+.copyright {
+	background-color: #202020;
+	height: 100px;
+	text-align: center;
+}
+
+.copyright p{
+	color: #bebebe;
+	font-size: 15px;
+	position: relative;
+    top: 45%;
+    text-transform: capitalize;
+}
+
+
+
